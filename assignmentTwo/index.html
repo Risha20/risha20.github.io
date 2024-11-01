@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="partOne">
+        <h2>Enter your word to reverse it:</h2>
+        <input type="text" id="reverse" placeholder="Enter word here">
+        <button onclick="reverseString()">Reverse a string</button>
+        <p><span id="reversed"></span></p>
+    </div>
+
+    <div class="partTwo">
+        <h2>Enter a series of number to check if it's a palindrome:</h2>
+        <input type="number" id="palindrome" placeholder="Enter number here">
+        <button onclick="isPalindrome()">Check for palindrome</button>
+        <p><span id="palindromeResult"></span></p>
+    </div>
+    
+    <div class="partThree">
+        <h2>Calculate your total bill</h2>
+        <input type="number" id="total" placeholder="total amount in $">
+        <input type="number" id="tip" placeholder="tip amount in %">
+        <button onclick="totalBill()">Get total bill amount</button>
+        <p><span id="bill"></span></p>
+    </div>
+
+    <script src="index.js"></script> 
+</body>
+</html>
